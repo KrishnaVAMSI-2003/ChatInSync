@@ -1,0 +1,59 @@
+.messages__container{
+    flex:1;
+    overflow: scroll;
+    width:100%;
+    padding: 5px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: #e6f8ff;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+}
+.message__box{
+    width: fit-content;
+    padding: 2px 5px;
+    margin: 5px 15px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 2px 2px 2px 2px rgba(185, 182, 182, 0.6);
+}
+.self__message{
+    display: inline-block;
+    background: #a4e3c9;
+    margin-left: auto;
+}
+.others__message{
+    background: #e8e8e8;
+}
+.message__username{
+    position: absolute;
+    top: -7px;
+    background: white;
+    padding: 0 5px;
+    margin: 0;
+    line-height: 1;
+    border-radius: 5px;
+}
+.message__text{
+    margin: 7px 13px 0 12px;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: 500;
+}
+.message__time{
+    width: 100%;
+    text-align: right;
+    font-size: 10px;
+    font-weight: 500;
+}
+.input__form{
+    width: 100%;
+    display: flex;
+    padding: 0 7px 15px 7px;
+}
+.form__control{
+    flex: 1;
+    margin:0 10px !important;
+}
